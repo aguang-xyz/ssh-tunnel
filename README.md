@@ -14,5 +14,5 @@ docker run -d \
 	-e REMOTE_HOST=example.com \
 	-e LOCAL_PORT=8080 \
 	-v ~/.ssh/:/root/.ssh/ \
-	dular-ssh-tunnel:v1.0.0
+	ghcr.io/dular-xyz/dular-ssh-tunnel:v1.0.0
 ```
