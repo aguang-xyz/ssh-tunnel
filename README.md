@@ -2,6 +2,8 @@
 
 Create a SSH Tunnel forwarding remote network traffic to local machine.
 
+[![Build & Publish](https://github.com/dular-xyz/dular-ssh-tunnel/actions/workflows/publish.yml/badge.svg)](https://github.com/dular-xyz/dular-ssh-tunnel/actions/workflows/publish.yml)
+
 ## Usage
 
 ```bash
