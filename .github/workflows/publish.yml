@@ -1,4 +1,4 @@
-name: Build & Publish Dular SSH Tunnel
+name: Build & Publish
 
 on:
   release:
