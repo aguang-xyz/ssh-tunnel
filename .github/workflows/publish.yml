@@ -23,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GH_PACKAGES_TOKEN }}
+          password: ${{ secrets.SSH_TUNNEL_PUBLISH_TOKEN }}
 
       - name: Build container image
         uses: docker/build-push-action@v2
@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/dular-xyz/dular-ssh-tunnel:${{ github.event.release.tag_name }}
+          tags: ghcr.io/aguang-xyz/ssh-tunnel:${{ github.event.release.tag_name }}
