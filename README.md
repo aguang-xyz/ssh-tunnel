@@ -1,9 +1,7 @@
 # SSH Tunnel
 
-Create a SSH Tunnel:
-
-* forwarding remote network traffic to local machine.
-* or forwarding local network traffic to remote server.
+* Forward remote network traffic to local machine.
+* Forward local network traffic to remote server.
 
 [![Build & Publish](https://github.com/aguang-xyz/ssh-tunnel/actions/workflows/publish.yml/badge.svg)](https://github.com/aguang-xyz/ssh-tunnel/actions/workflows/publish.yml)
 
