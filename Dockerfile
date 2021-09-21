@@ -3,7 +3,8 @@ FROM ubuntu:18.04
 ENV REMOTE_USER=root \
     REMOTE_HOST=example.com \
     REMOTE_PORT=8080 \
-    LOCAL_PORT=8080
+    LOCAL_PORT=8080 \
+    MODE=forward_remote_port
 
 RUN apt-get update && apt-get install -y ssh
 
